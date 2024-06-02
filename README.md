@@ -4,6 +4,10 @@
 
 Parcel is a lightweight modpack management tool for Minecraft, designed for easy collaboration and rapid updates during the development of modpacks.
 
+
+|![Parcel screenshot](/doc/ss1.png) | ![Parcel screenshot](/doc/ss2.png) | ![Parcel screenshot](/doc/ss3.png)|
+|:-----:|:-----:|:-----:|
+
 ### Features
 
 * **Simple, lightweight, easy to use**
