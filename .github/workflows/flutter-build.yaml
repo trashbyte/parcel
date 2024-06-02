@@ -1,5 +1,5 @@
 name: Build flutter targets
-run-name: Builds Parcel for Windows, Linux, and MacOS
+run-name: Build Parcel for Windows, Linux, and MacOS
 on: [push]
 jobs:
   build_windows:
