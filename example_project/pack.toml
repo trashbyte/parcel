@@ -1,0 +1,322 @@
+[pack]
+version = 1
+name = "Example modpack"
+authors = ["byte"]
+packVersion = "0.1"
+mcVersion = "1.18.2"
+loader = "forge"
+loaderVersion = "40.2.0"
+
+[[mod]]
+name = "Extended Creative Inventory"
+filename = "Extended Creative Inventory.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "BGhINW6Q", version = "WkyIxAIS" }
+note = "For development only"
+
+[[mod]]
+name = "Starter Kit"
+filename = "Starter Kit.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "6L3ydNi8", version = "13CMI21O" }
+
+[[mod]]
+name = "TCDCommons API"
+filename = "TCDCommons API.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "modrinth", project = "Eldc1g37", version = "Jf38xzKF" }
+note = "Required for Better Statistics Screen"
+
+[[mod]]
+name = "Better Statistics Screen"
+filename = "Better Statistics Screen.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "modrinth", project = "n6PXGAoM", version = "RM7Dy7vu" }
+
+[[mod]]
+name = "Entity Culling"
+filename = "Entity Culling.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "modrinth", project = "NNAgCjsB", version = "jFORrKV6" }
+
+[[mod]]
+name = "Just Enough Immersive Multiblocks"
+filename = "Just Enough Immersive Multiblocks.jar"
+server = "optional"
+client = "optional"
+source = { type = "modrinth", project = "ffLYPaWN", version = "xohA8xN8" }
+
+[[mod]]
+name = "Just Enough Resources"
+filename = "Just Enough Resources.jar"
+server = "optional"
+client = "optional"
+source = { type = "curseforge", project = "240630", file = "3831559" }
+
+[[mod]]
+name = "Customizable Player Models"
+filename = "Customizable Player Models.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "modrinth", project = "h1E7sQNL", version = "VvDjNlZJ" }
+
+[[mod]]
+name = "Chunk Animator"
+filename = "Chunk Animator.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "curseforge", project = "236484", file = "3769750" }
+
+[[mod]]
+name = "Mouse Tweaks"
+filename = "Mouse Tweaks.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "modrinth", project = "aC3cM3Vq", version = "q0CGibTg" }
+
+[[mod]]
+name = "BetterF3"
+filename = "BetterF3.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "modrinth", project = "8shC1gFX", version = "QIXtqgTu" }
+
+[[mod]]
+name = "Crafting Tweaks"
+filename = "Crafting Tweaks.jar"
+server = "excluded"
+client = "optional"
+source = { type = "modrinth", project = "DMu0oBKf", version = "lLXZEvzk" }
+
+[[mod]]
+name = "Rubidium"
+filename = "Rubidium.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "modrinth", project = "4ZqxOvjD", version = "v1Byy3O4" }
+
+[[mod]]
+name = "Oculus"
+filename = "Oculus.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "modrinth", project = "GchcoXML", version = "zuJ1306r" }
+
+[[mod]]
+name = "Catalogue"
+filename = "Catalogue.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "curseforge", project = "459701", file = "3803098" }
+
+[[mod]]
+name = "Configured"
+filename = "Configured.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "curseforge", project = "457570", file = "4010624" }
+
+[[mod]]
+name = "Ding"
+filename = "Ding.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "modrinth", project = "UEtTD3gP", version = "7NThHq1i" }
+
+[[mod]]
+name = "Beautified Chat Client"
+filename = "Beautified Chat Client.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "modrinth", project = "mtIxmNw5", version = "f2JYjvMh" }
+
+[[mod]]
+name = "Bad Wither No Cookie"
+filename = "Bad Wither No Cookie.jar"
+server = "excluded"
+client = "optional"
+source = { type = "modrinth", project = "lL2MtE37", version = "UIgEX1gX" }
+
+[[mod]]
+name = "Entity Collision FPS Fix"
+filename = "Entity Collision FPS Fix.jar"
+server = "unsupported"
+client = "optional"
+source = { type = "curseforge", project = "628345", file = "3807498" }
+
+[[mod]]
+name = "Roughly Enough Items"
+filename = "Roughly Enough Items.jar"
+server = "optional"
+client = "optional"
+source = { type = "modrinth", project = "nfn13YXA", version = "MohCbahs" }
+
+[[mod]]
+name = "Canary"
+filename = "Canary.jar"
+server = "optional"
+client = "optional"
+source = { type = "modrinth", project = "qa2H4BS9", version = "AASYIFl1" }
+
+[[mod]]
+name = "Pluto"
+filename = "Pluto.jar"
+server = "optional"
+client = "optional"
+source = { type = "modrinth", project = "I2K4u1Q7", version = "dwSCE9oQ" }
+
+[[mod]]
+name = "Saturn"
+filename = "Saturn.jar"
+server = "optional"
+client = "optional"
+source = { type = "modrinth", project = "2eT495vq", version = "vrHGjzxo" }
+
+[[mod]]
+name = "Spark"
+filename = "Spark.jar"
+server = "optional"
+client = "optional"
+source = { type = "modrinth", project = "l6YH9Als", version = "sYlxF6IX" }
+
+[[mod]]
+name = "REI Plugin Compatibilities"
+filename = "REI Plugin Compatibilities.jar"
+server = "optional"
+client = "optional"
+source = { type = "modrinth", project = "1PfY6b5p", version = "lHuQQvms" }
+
+[[mod]]
+name = "Compact Help Command"
+filename = "Compact Help Command.jar"
+server = "optional"
+client = "optional"
+source = { type = "modrinth", project = "XdiGl7ZL", version = "9mv3mwa0" }
+
+[[mod]]
+name = "Despawning Eggs Hatch"
+filename = "Despawning Eggs Hatch.jar"
+server = "optional"
+client = "excluded"
+source = { type = "modrinth", project = "iKRtwScn", version = "T6gHzQVg" }
+
+[[mod]]
+name = "Crying Ghasts"
+filename = "Crying Ghasts.jar"
+server = "optional"
+client = "excluded"
+source = { type = "modrinth", project = "SFBuyD9e", version = "xCyMJIHv" }
+
+[[mod]]
+name = "Respawning Shulkers"
+filename = "Respawning Shulkers.jar"
+server = "optional"
+client = "excluded"
+source = { type = "modrinth", project = "gHCmhGUV", version = "ybTSs7rA" }
+
+[[mod]]
+name = "BlueMap"
+filename = "BlueMap.jar"
+server = "optional"
+client = "excluded"
+source = { type = "modrinth", project = "swbUV1cr", version = "cbP8tIaW" }
+
+[[mod]]
+name = "Project: Save the Pets"
+filename = "Project Save the Pets.jar"
+server = "optional"
+client = "excluded"
+source = { type = "modrinth", project = "VJ6H5k8J", version = "RyuYNi3g" }
+
+[[mod]]
+name = "Cloth Config"
+filename = "Cloth Config.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "9s6osm5g", version = "GcaDCWXk" }
+note = "required for betterF3"
+
+[[mod]]
+name = "The One Probe"
+filename = "The One Probe.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "Eyw0UxEx", version = "pWurhZji" }
+
+[[mod]]
+name = "AppleSkin"
+filename = "AppleSkin.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "EsAfCjCV", version = "1P1AwANB" }
+
+[[mod]]
+name = "CC:C Bridge"
+filename = "CC-C Bridge.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "fXt291FO", version = "nefRvVSC" }
+
+[[mod]]
+name = "Pehkui"
+filename = "Pehkui.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "t5W7Jfwy", version = "sku0rAXL" }
+note = "required for custom player models"
+
+[[mod]]
+name = "Balm"
+filename = "Balm.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "MBAkmtvl", version = "nFs2ZvOR" }
+note = "required for waystones, cooking for blockheads, crafting tweaks"
+
+[[mod]]
+name = "Waystones"
+filename = "Waystones.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "LOpKHB2A", version = "Vmeejp4H" }
+
+[[mod]]
+name = "Cooking for Blockheads"
+filename = "Cooking for Blockheads.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "vJnhuDde", version = "XPhxXLsP" }
+
+[[mod]]
+name = "Create"
+filename = "Create.jar"
+server = "required"
+client = "required"
+source = { type = "modrinth", project = "LNytGWDc", version = "iRckjniU" }
+
+[[mod]]
+name = "Flywheel"
+filename = "Flywheel.jar"
+server = "unsupported"
+client = "required"
+source = { type = "modrinth", project = "5lpsZoRi", version = "xp7zKZ1z" }
+note = "required for create"
+
+[[mod]]
+name = "Create Crafts & Additions"
+filename = "Create Additions.jar"
+server = "required"
+client = "required"
+source = { type = "curseforge", project = "439890", file = "4438802" }
+
+[[mod]]
+name = "Ars Nouveau"
+filename = "Ars Nouveau.jar"
+server = "required"
+client = "required"
+source = { type = "curseforge", project = "401955", file = "4052851" }
