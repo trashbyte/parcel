@@ -39,6 +39,7 @@ abstract class ModSource {
     Future<void> download(ProjectData packInfo, String filename, void Function(double) callback);
     Future<void> delete(ProjectData packInfo, String filename);
     String iconPath();
+    String? modURL();
     
     Future<bool> localFileExists(ProjectData packInfo, String filename) async {
         if (this.status == SourceStatus.downloading) {

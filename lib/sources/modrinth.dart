@@ -219,4 +219,10 @@ class ModrinthSource extends ModSource {
     String iconPath() {
         return "assets/icons/modrinth.png";
     }
+    
+    @override
+    String? modURL() {
+        String? slug = this.projectData?['slug'];
+        return slug == null ? null : "https://modrinth.com/mod/$slug";
+    }
 }

@@ -144,6 +144,10 @@ class _ModListPageState extends State<ModListPage> {
         }
 
         if (optionals.isNotEmpty) {
+            if (!this.mounted) {
+                showSimpleDialog("Error", "ModListPageState context is not mounted. This is a bug in Parcel and should never happen.", true);
+                return;
+            }
             List<ModInfo>? selectedOptionals = await showDialog<List<ModInfo>>(
                 context: context,
                 barrierDismissible: false,

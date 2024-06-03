@@ -186,4 +186,9 @@ class CurseforgeSource extends ModSource {
     String iconPath() {
         return "assets/icons/curseforge.png";
     }
+    
+    @override
+    String? modURL() {
+        return this.projectInfo?['links']?['websiteUrl'];
+    }
 }

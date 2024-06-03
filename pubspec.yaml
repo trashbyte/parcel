@@ -17,6 +17,8 @@ dependencies:
   convert: ^3.1.1
   file_picker: ^8.0.3
   flutter_platform_alert: ^0.5.1
+  url_launcher: ^6.2.6
+  just_the_tooltip: ^0.0.12
   window_size:
     git:
       url: https://github.com/google/flutter-desktop-embedding.git

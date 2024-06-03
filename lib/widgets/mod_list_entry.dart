@@ -5,6 +5,7 @@ import 'package:parcel/mod.dart';
 import 'package:parcel/project.dart';
 import 'package:parcel/sources/source.dart';
 import 'package:parcel/widgets/mod_requirement.dart';
+import 'package:parcel/widgets/mod_source_button.dart';
 import 'package:parcel/widgets/mod_status.dart';
 
 
@@ -58,11 +59,7 @@ class ModListEntryState extends State<ModListEntry> {
             padding: const EdgeInsets.all(4),
             child: Row(
                 children: [
-                    SizedBox(
-                        width: 36,
-                        height: 36,
-                        child: Image.asset(this.widget.mod.sourceIconPath()),
-                    ),
+                    ModSourceIconButton(source: this.widget.mod.source),
                     const SizedBox(width: 5),
                     SizedBox(
                         width: 36,
